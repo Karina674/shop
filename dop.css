@@ -1,0 +1,103 @@
+body {
+
+  background-color: #FFFAFA;
+  line-height: 0.5;
+
+}
+
+/* Стили для заголовка h1 */
+h1 {
+font-family: 'Century gothic', sans-serif;
+  color: #191970;
+  text-align: center;
+  margin-bottom: 15px;
+margin: 10;
+font-weight: 10;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+        font-weight: 1000; /* Тонкий вес */
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+        background-color: #f0f0f0;
+
+
+}
+/* Стили для параграфов */
+p {
+  text-align: center;
+  color: #000000;
+  font-size: 70px;
+  margin-bottom: 25px;
+
+  margin: 0; /* Убираем отступы по умолчанию у body */
+          padding: 0;
+}
+
+/* Стили для ссылок */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.logo-arrow {
+  color: #FF5733; /* Оранжевый цвет */
+  margin-left: 10px;
+}
+
+/* Стили для кнопки */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E0FFFF;
+  color: #696969;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cover-image {
+    width: 200px; /* Ширина */
+    height: 150px; /* Высота */
+    object-fit: cover; /* Сохраняет пропорции и заполняет область */
+  }
+
+  .center-image {
+      display: block; /* Делаем изображение блочным элементом */
+      margin: 0 auto; /* Центрирование по горизонтали */
+      width: 7%; /* Ширина изображения */
+    }
+
+.great-vibes {
+      font-family: 'Great Vibes', cursive;
+      text-transform: uppercase;
+    }
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+
+p1 {color: #4B0082;
+}
+
+h3 {
+color: black;
+font-size: 30px;
+}
+body.body2 {
+            background-color: #ADD8E6;
+            font-family: Arial;
+        }
+
+        .inline-image {
+            display: inline-block; /* Элементы будут рядом */
+            width: 42%; /* Ширина каждой фотографии */
+            margin: 1%; /* Отступ между фотографиями */
+          }
